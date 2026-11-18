@@ -10,6 +10,7 @@ class Armagetronad < Formula
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "boost" => :build
+  depends_on "abseil" => :build
   depends_on "protobuf" => :build
   depends_on "protobuf-c" => :build
   depends_on "create-dmg" => :build
